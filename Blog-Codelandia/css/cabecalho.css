@@ -1,0 +1,101 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2em;
+    background: var(--gradiente);
+}
+
+.container-titulo {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.titulo {
+    font-family: var(--lexend);
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container-caixa {
+    width: 90%;
+}
+
+.buscar-position {
+    position: relative;
+    top: 44px;
+    left: 14px;
+}
+
+.caixa-buscar {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin: 1em 0em 4em 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+}
+
+.caixa-buscar::placeholder {
+    font-family: var(--inter);
+    font-size: 14px;
+    color: var(--branco);
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 1024px) {
+    .container-titulo, .container-caixa {
+        width: 700px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        height: 250px;
+        margin-bottom: 4em;
+    }
+    .container-titulo {
+        width: 900px;
+        margin: 2.5em 0 2.4em 0;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .container-caixa {
+        width: 900px;
+    }
+
+    .caixa-buscar {
+        height: 65px;
+        padding: 1em 0 1em 4em;
+        margin-bottom: 3em;
+    }
+
+    .buscar-position {
+        position: relative;
+        top: 58px;
+        left: 14px;
+    }
+
+    .lupa {
+        width: 23.44px;
+        height: 23.44px;
+    }
+
+    .caixa-buscar::placeholder {
+        font-family: var(--inter);
+        font-size: 18px;
+        color: var(--branco);
+        opacity: 0.5;
+    }    
+}

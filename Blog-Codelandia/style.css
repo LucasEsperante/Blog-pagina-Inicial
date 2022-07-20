@@ -1,0 +1,18 @@
+@import url(css/cabecalho.css);
+@import url(css/principal.css);
+
+:root {
+    --gradiente: linear-gradient(90deg, #574AE8 0%,#3EA1DB 100%);
+    --branco: #FFFFFF;
+    --branco-200: #F3F5F7;
+    --cinza-escuro: #1A202C;
+    --cinza: #717171;
+    --roxo: #574AE8;
+    --lexend:'Lexend Deca';
+    --inter: 'Inter';
+    --font-titulo: #1A202C;
+}
+
+body {
+    background-color: var(--branco-200);
+}
