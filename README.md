@@ -1,7 +1,7 @@
 <h1>Codelândia-Desafios</h1>
 
-- [x] Criar Página de Blog
-- [ ] Criar E-commerce de tênis
+- [x] Desafio 1: Criar Página de Blog
+- [ ] Desafio 2: Criar E-commerce de tênis
 
 <h2>Blog Codelândia</h2>
 
