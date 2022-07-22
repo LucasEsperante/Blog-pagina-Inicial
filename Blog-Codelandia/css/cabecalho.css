@@ -37,9 +37,7 @@
     border-radius: 5px;
     border: none;
     margin: 1em 0em 4em 0em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 3.5em;
+    padding: 1em 0 1em 3.5em;
     background: rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
 }
